@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="main-block">
-        <form autocomplete="on" accept-charset="utf-8" enctype="multipart/form-data" method="post" target="_self"
+        <form autocomplete="on" action="signup.php" accept-charset="utf-8" enctype="multipart/form-data" method="post" target="_self"
             translate="yes" id="studentForm">
             <h1>Create a account</h1>
             <fieldset>
@@ -137,7 +137,6 @@
             </div>
         </form>
     </div>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js'></script>
     <script src="js/main.js"></script>
 </body>
 

@@ -1,16 +1,12 @@
-$(document).ready(function () {
-    $("#studentForm").submit(function () {
-        var formData = new FormData($(this)[0]);
-        $.ajax({
-            url: "signup.php",
-            type: "POST",
-            data: formData,
-            contentType: false,
-            processData: false,
-            success: function (result) {
-                window.open("login.php");
-            }
-        });
-        return false;
-    });
-});
+function emailError(){
+    var error=`email`;
+    alert(`${error} Id is already in use.please provide another ${error} address. `)
+}
+function userNameError(){
+    var error='username';
+    alert(`${error} is already in use. please try ${error} address.`)
+}
+function profileImage(){
+    var error='profile image';
+    alert(`${error} is already in use. please try ${error}.`)
+}
