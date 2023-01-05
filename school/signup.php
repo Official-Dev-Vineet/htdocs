@@ -13,7 +13,7 @@
         redirectTOIndex()
     }
     function profileError() {
-        var error = 'profile image';
+        var error = 'Photo';
         alert(`${error} is already in use. please try ${error}.`)
         redirectTOIndex()
     }
